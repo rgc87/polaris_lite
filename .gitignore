@@ -1,0 +1,24 @@
+# EXCLUDED DIRECTORIES.
+**logs/
+**plots/
+**dump/
+**__pycache__/
+.venv*/
+
+# EXCLUDED FILE TYPES
+*.code-workspace
+*.csv
+*.egg-info
+*.ipynb_checkpoints
+*.ipynb
+*.log
+*.pckl
+*.txt
+*.yaml
+
+# ALLOWED FILE TYPES
+!requirements.txt
+# !datasets/df_klines_BTCUSDT_1d.pckl
+# !datasets/df_klines_ETHUSDT_1d.pckl
+# !datasets/df_klines_BNBUSDT_1d.pckl
+# !datasets/df_klines_DOGEUSDT_1d.pckl
