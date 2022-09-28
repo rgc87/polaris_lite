@@ -11,7 +11,7 @@ do
 done
 
 # set directory. DIFFERENT IN EVERY MACHINE, UNLESS USE DOCKER.
-cd /home/llagask/Trading/polaris_beta/capture-data
+cd /home/polaris39beta/Trading/polaris_lite/capture-data
 
 # activate virtual environment. DIFFERENT IN EVERY MACHINE, UNLESS USE DOCKER, IN THIS CASE IS UNNECESSARY.
 source ../.venv/bin/activate
@@ -22,7 +22,7 @@ python3 obtain-data-klines.py \
 --markettype $markettype \
 --quotedasset $quotedasset \
 --streamtype $streamtype \
-2>> /home/llagask/Trading/polaris_beta/capture-data/errors.txt
+2>> /home/polaris39beta/Trading/polaris_lite/capture-data/errors.txt
 
 # deactivate virtual environment
 deactivate
